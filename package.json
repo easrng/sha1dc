@@ -1,0 +1,33 @@
+{
+  "name": "sha1dc",
+  "version": "0.0.0",
+  "description": "A WebAssembly port of the hardened SHA1 hash function used by Git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easrng/sha1dc.git"
+  },
+  "keywords": [
+    "sha1",
+    "sha1dc",
+    "git"
+  ],
+  "author": "easrng <https://easrng.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easrng/sha1dc/issues"
+  },
+  "homepage": "https://github.com/easrng/sha1dc#readme",
+  "devDependencies": {
+    "@types/bun": "^1.0.12",
+    "@types/node": "^20.12.7",
+    "emsdk": "github:emscripten-core/emsdk#3.1.57"
+  },
+  "files": [
+    "build/sha1dc.wasm",
+    "src/index.js"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  }
+}
