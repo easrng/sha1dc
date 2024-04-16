@@ -9,10 +9,8 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "strict": true,
-    "noEmit": true
+    "noEmit": true,
+    "skipLibCheck": true
   },
-  "include": [
-    "src",
-    "test"
-  ]
+  "include": ["src", "test"],
 }
